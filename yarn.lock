@@ -366,7 +366,7 @@ chardet@^0.4.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
   integrity sha1-tUc7M9yXxCTl2Y3IfVXU2KKci/I=
 
-chokidar@^1.0.1:
+chokidar@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.7.0.tgz#798e689778151c8076b4b360e5edd28cda2bb468"
   integrity sha1-eY5ol3gVHIB2tLNg5e3SjNortGg=
@@ -1229,28 +1229,28 @@ for-own@^0.1.4:
   dependencies:
     for-in "^1.0.1"
 
-forever-monitor@~1.7.0:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/forever-monitor/-/forever-monitor-1.7.1.tgz#5d820f4a3a78db2d81ae2671f158b9e86a091bb8"
-  integrity sha1-XYIPSjp42y2BriZx8Vi56GoJG7g=
+forever-monitor@^1.7.2:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/forever-monitor/-/forever-monitor-1.7.2.tgz#ea8aad548eaab4a7e1fd193da80a4d577e4b29ee"
+  integrity sha512-TGFkX9Hg1X0A4o0ShOvI7AH+p0Ra2kUfhA4kNL0/DY1lQO7T+DUBbSODFBQrykcrxjyw+D1RiawNOX3X2NFfrw==
   dependencies:
     broadway "~0.3.6"
-    chokidar "^1.0.1"
+    chokidar "^1.7.0"
     minimatch "~3.0.2"
     ps-tree "0.0.x"
-    utile "~0.2.1"
+    utile "^0.3.0"
 
-forever@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/forever/-/forever-1.0.0.tgz#d6dc092da8e44da838318fabe45205b191f2a094"
-  integrity sha512-ZaNWo5aMdtfui5GZWxaPcmFPW/TaaJZgGE0/p47lhn0FGRhFehuG338zuUURIqjn0dZEmgNPUAahZMOdykEAiw==
+forever@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/forever/-/forever-1.0.1.tgz#ead18166f47377c0dbc6f2b33a3b92c5e66e336f"
+  integrity sha512-mMacRDxu3Wox1g2AYCQZrL/JsY/ky9boBUmO5W+OITdX4rLA87UVMNe5bvISCH3rrZLuWWeqhtzlF5bSWqL0Eg==
   dependencies:
     async "~0.2.9"
     cliff "~0.1.9"
     clone "^1.0.2"
     colors "~0.6.2"
     flatiron "~0.4.2"
-    forever-monitor "~1.7.0"
+    forever-monitor "^1.7.2"
     mkdirp "0.x.x"
     nconf "~0.6.9"
     nssocket "~0.5.1"
@@ -3363,7 +3363,7 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-utile@0.2.1, utile@0.2.x, utile@~0.2.1:
+utile@0.2.1, utile@0.2.x:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/utile/-/utile-0.2.1.tgz#930c88e99098d6220834c356cbd9a770522d90d7"
   integrity sha1-kwyI6ZCY1iIINMNWy9mncFItkNc=
@@ -3375,7 +3375,7 @@ utile@0.2.1, utile@0.2.x, utile@~0.2.1:
     ncp "0.4.x"
     rimraf "2.x.x"
 
-utile@~0.3.0:
+utile@^0.3.0, utile@~0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/utile/-/utile-0.3.0.tgz#1352c340eb820e4d8ddba039a4fbfaa32ed4ef3a"
   integrity sha1-E1LDQOuCDk2N26A5pPv6oy7U7zo=
