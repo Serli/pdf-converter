@@ -405,10 +405,10 @@ chownr@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.1.tgz#54726b8b8fff4df053c42187e801fb4412df1494"
 
-chrome-headless-render-pdf@1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/chrome-headless-render-pdf/-/chrome-headless-render-pdf-1.8.2.tgz#acabb3c85c1d50261814002a231dc7d74c085996"
-  integrity sha512-R8gfgN/+5q2IcJJsEXl5ZkfuV0BGv5bCKRRvMF0Fv5cAKNdVlkS8nO1ESw7ZN9VpdBEkJcAmgLiQwzgnD/ZQAQ==
+chrome-headless-render-pdf@1.8.4:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/chrome-headless-render-pdf/-/chrome-headless-render-pdf-1.8.4.tgz#a56db1760c4bde8739a0cee8a7473ee3d090fca3"
+  integrity sha512-wUseJTNGCUl2cNUQCe9QZIwSKBMnFvhY3sIoyL0UsbjRP2cvSNWABnhGQTtRmWD+dZihWm+UK1l26tMocQKRhg==
   dependencies:
     "@types/node" "^8.0.15"
     babel-polyfill "^6.23.0"
